@@ -1,0 +1,55 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    gap: 2vmin;
+    
+  }
+  
+
+  .user{
+    width: 400px;
+    height: 75px;
+    border-radius: 15px;
+    border: 3px #2B2B2B solid;
+    padding-left: 2vmin;
+    font-size: 20px;
+  }
+
+  .user::placeholder{
+    padding: 0.2vmin;
+    font-size: 20px;
+  }
+  
+  
+  /* Botão principal */
+  .button {
+    cursor: pointer;
+    width: 300px;
+    height: 70px;
+    background: #153D61;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.31);
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  
+  .button:hover{
+    background: #fff;
+    color: #153D61;
+    transform: scale(1.02);
+  }
+
+  .logo{
+    width: 286px;
+    height: 336px;
+  }
